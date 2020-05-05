@@ -1,0 +1,31 @@
+<mat-card class="example-card myAnimation" *ngIf="display">
+    <div *ngFor="let r of result">
+        <a href="javascript:void(0)" style=" float: right;" (click)="closeWindow(c)">close</a>
+        <h2>{{r.name}}</h2>
+
+        <div class="example-button-row">
+            <button mat-stroked-button class="buttonSpace">Website </button>
+            <button mat-stroked-button class="buttonSpace">Directions</button>
+            <button mat-stroked-button class="buttonSpace">Save</button>
+        </div><br>
+
+        <div class="example-button-row">
+            <i class="fa fa-star" style="color:gold" aria-hidden="true"></i>
+            <i class="fa fa-star" style="color:gold" aria-hidden="true"></i>
+            <i class="fa fa-star-o" style="color:gold" aria-hidden="true"></i>
+        </div>
+
+        <svg height="30" width="400">
+            <line x1="0" y1="20" x2="400" y2="20" style="stroke:rgb(226, 226, 226);stroke-width:2" />
+            Sorry, your browser does not support inline SVG.
+        </svg>
+
+        <div>
+            <p> <strong> Located In :</strong> {{r.locatedIn}} </p>
+            <p> <strong> Address :</strong> {{r.address}} </p>
+            <p> <strong> Phone Number :</strong> {{r.phoneNo}} </p>
+            <p> <strong> Order :</strong> <a href="javascript:void(0)">{{r.order}} </a> </p>
+        </div>
+
+    </div>
+</mat-card>

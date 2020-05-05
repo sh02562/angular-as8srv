@@ -1,0 +1,12 @@
+<agm-map [latitude]="lat" [longitude]="lng" [zoom]="11.5">
+  <agm-marker *ngFor="let marker of markers" [latitude]="marker.latlng.lat" [longitude]="marker.latlng.lng"
+    (markerClick)="mouseOverCalled(marker.id)">
+
+    <agm-info-window [disableAutoPan]="false" [isOpen]="openMyWindow(marker.id)">
+      <div>
+        {{marker.name}}
+      </div>
+    </agm-info-window>
+
+  </agm-marker>
+</agm-map>

@@ -1,0 +1,19 @@
+<div class="setMarginTop">
+	<mat-list>
+		<mat-list-item *ngFor="let row of rows" class="setMargin">
+			<mat-card class="example-card">
+				<mat-card-header>
+					<mat-card-title><a [routerLink]="['resturants-details']"
+							(click)="seeMyValue(row.id)">{{row.name}}</a></mat-card-title>
+					<mat-card-subtitle>{{row.address}}</mat-card-subtitle>
+					<mat-card-subtitle>
+						<i class="fa fa-star" style="color:gold" aria-hidden="true"></i>
+						<i class="fa fa-star" style="color:gold" aria-hidden="true"></i>
+						<i class="fa fa-star-o" style="color:gold" aria-hidden="true"></i>
+					</mat-card-subtitle>
+					<img src="{{row.photograph}}">
+				</mat-card-header>
+			</mat-card>
+		</mat-list-item><br>
+	</mat-list>
+</div>

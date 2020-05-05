@@ -1,4 +1,10 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<div class="split left">
+    <app-resturant-list></app-resturant-list>
+</div>
+
+<div class="split right">
+    <app-maps></app-maps>
+    <div class="detailsWindow">
+        <router-outlet></router-outlet>
+    </div>
+</div>

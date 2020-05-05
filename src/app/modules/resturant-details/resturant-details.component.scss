@@ -1,0 +1,29 @@
+  .example-card {
+    max-width: 430px;
+  }
+  
+  .buttonSpace{
+    margin-right: 10px;
+    color : rgb(53, 53, 53);
+    font-size: 13px;
+    background-color: rgb(226, 226, 226);
+  }
+
+  .customHeading{
+    margin-right: 10px;
+    font-size : 30px;
+    font-weight: bold;
+  }
+
+  .setTopRow li{
+    display: inline;
+  }
+  .myAnimation{
+    animation: myfirst 0.5s 1;
+    animation-direction: normal;
+  }
+
+  @keyframes myfirst {
+    from {top: 200px;}
+    to {top: 0px;}
+  }

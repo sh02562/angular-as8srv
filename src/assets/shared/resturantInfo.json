@@ -1,0 +1,102 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Absolute Barbecues Gachibowli",
+      "photograph": "assets/images/1.jpeg",
+      "address": "2nd Floor, Apurupa Silpi, Besides HP Petrol Pump, Indira Nagar, Gachibowli, Hyderabad, Telangana 500032",
+      "rating": 5,
+      "phoneNo": "09846783504",
+      "order": "swiggy.com, zomato.com",
+      "locatedIn": "Gachibowli",
+      "latlng": {
+        "lat": 17.486700,
+        "lng": 78.447540
+      }
+    },
+    {
+      "id": 2,
+      "name": "Paradise Biryani | Masab Tank",
+      "photograph": "assets/images/2.jpeg",
+      "address": "X Roads, Masab Tank, Hyderabad, Telangana 500004",
+      "rating": 3,
+      "phoneNo": "096893070504",
+      "order": "swiggy.com, zomato.com",
+      "locatedIn": "Gachibowli",
+      "latlng": {
+        "lat": 17.4011,
+        "lng": 78.4857
+      }
+    },
+    {
+      "id": 3,
+      "name": "Udupi Upahar Secunderabad",
+      "photograph": "/assets/images/3.jpeg",
+      "address": "1-1-78, Rashtrapati Rd, Krishna Complex, Kalasiguda, Secunderabad, Telangana 500003",
+      "rating": 4,
+      "phoneNo": "0983892504",
+      "order": "swiggy.com, zomato.com",
+      "locatedIn": "Gachibowli",
+      "latlng": {
+        "lat": 17.4078,
+        "lng": 78.3816
+      }
+    },
+    {
+      "id": 4,
+      "name": "Melange",
+      "photograph": "assets/images/4.jpeg",
+      "address": "The Golkonda Hyderabad Banjara Hills, Masab Tank, Hyderabad, Telangana 500028",
+      "rating": 3,
+      "phoneNo": "0984892004",
+      "order": "swiggy.com, zomato.com",
+      "locatedIn": "Gachibowli",
+      "latlng": {
+        "lat": 17.40331,
+        "lng": 78.5057
+      }
+    },
+    {
+      "id": 5,
+      "name": "Sarvi take away",
+      "photograph": "assets/images/5.jpeg",
+      "address": "No. 6-2-626, Ground Floor, Road No. 11,Banjara Hills, Hyderabad, Telangana 500034",
+      "rating": 3,
+      "phoneNo": "09847593504",
+      "order": "swiggy.com, zomato.com",
+      "locatedIn": "Gachibowli",
+      "latlng": {
+        "lat": 17.370950,
+        "lng": 78.404490
+      }
+    },
+    {
+      "id": 6,
+      "name": "Sri Poorna Hotel",
+      "photograph": "assets/images/6.jpeg",
+      "address": "6-1-85/11 A&b, Saibaba Street,Opposite Telephone Bhavan,Hyderabad, Telangana 500004",
+      "rating": 3,
+      "phoneNo": "0985638504",
+      "order": "swiggy.com, zomato.com",
+      "locatedIn": "Gachibowli",
+      "latlng": {
+        "lat": 17.450640,
+        "lng": 78.382830
+      }
+    },
+    {
+      "id": 7,
+      "name": "Flechazo Madhapur",
+      "photograph": "assets/images/7.jpeg",
+      "address": "2nd Sun Towers, above Mangatrai Jewellers, Sector 1, HUDA Techno Enclave, Madhapur, Hyderabad, Telangana 500081",
+      "rating": 3,
+      "phoneNo": "0986624504",
+      "order": "swiggy.com, zomato.com",
+      "locatedIn": "Gachibowli",
+      "latlng": {
+        "lat": 17.406620,
+        "lng": 78.340670
+      }
+    }
+  ]
+}
